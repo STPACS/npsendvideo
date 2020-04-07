@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0433B538243C032D00E923B8 /* NPSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B537243C032D00E923B8 /* NPSliderView.m */; };
+		04E39E9C2437318C00B1CBDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39E9B2437318C00B1CBDA /* AppDelegate.m */; };
+		04E39EA22437318C00B1CBDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EA12437318C00B1CBDA /* ViewController.m */; };
+		04E39EA52437318C00B1CBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E39EA32437318C00B1CBDA /* Main.storyboard */; };
+		04E39EA72437318E00B1CBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E39EA62437318E00B1CBDA /* Assets.xcassets */; };
+		04E39EAA2437318E00B1CBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E39EA82437318E00B1CBDA /* LaunchScreen.storyboard */; };
+		04E39EAD2437318E00B1CBDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EAC2437318E00B1CBDA /* main.m */; };
+		04E39EB72437318E00B1CBDA /* JRTTSendVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EB62437318E00B1CBDA /* JRTTSendVideoTests.m */; };
+		04E39EC22437318E00B1CBDA /* JRTTSendVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EC12437318E00B1CBDA /* JRTTSendVideoUITests.m */; };
+		04E39ED22437336D00B1CBDA /* NPSendVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39ED12437336D00B1CBDA /* NPSendVideoViewController.m */; };
+		04E39ED8243733ED00B1CBDA /* NPSendVideoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39ED7243733ED00B1CBDA /* NPSendVideoHeaderView.m */; };
+		04E39EDD2437380000B1CBDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E39EDF2437380000B1CBDA /* InfoPlist.strings */; };
+		04E39EE32437389600B1CBDA /* NPWordSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EE22437389600B1CBDA /* NPWordSet.m */; };
+		04E39EF0243AAD9600B1CBDA /* NSObject+NPMediaJurisdiction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EEF243AAD9600B1CBDA /* NSObject+NPMediaJurisdiction.m */; };
+		04E39EF3243AAE3400B1CBDA /* NPMediaFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EF2243AAE3400B1CBDA /* NPMediaFetcher.m */; };
+		04E39EF6243AB9C800B1CBDA /* NPSendVideoBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EF5243AB9C800B1CBDA /* NPSendVideoBottomView.m */; };
+		04E39EFA243ADF3300B1CBDA /* NPBaseVideoPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EF9243ADF3300B1CBDA /* NPBaseVideoPlay.m */; };
+		04E39EFD243B017E00B1CBDA /* NPSendVideoSecondSeptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EFC243B017E00B1CBDA /* NPSendVideoSecondSeptViewController.m */; };
+		04E39F00243B20E100B1CBDA /* NPSendVideoMiddleExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39EFF243B20E100B1CBDA /* NPSendVideoMiddleExchangeViewController.m */; };
+		04E39F06243B266800B1CBDA /* NPSendVideoSecondHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39F05243B266800B1CBDA /* NPSendVideoSecondHeaderView.m */; };
+		04E39F0A243B318C00B1CBDA /* NPSendVideoThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E39F09243B318C00B1CBDA /* NPSendVideoThirdViewController.m */; };
+		1505DAB2EFC0DCB1FB000B05 /* libPods-JRTTSendVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B48AFF1CB9E25E3F482401DC /* libPods-JRTTSendVideo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E39EB32437318E00B1CBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E39E8F2437318C00B1CBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E39E962437318C00B1CBDA;
+			remoteInfo = JRTTSendVideo;
+		};
+		04E39EBE2437318E00B1CBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E39E8F2437318C00B1CBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E39E962437318C00B1CBDA;
+			remoteInfo = JRTTSendVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0433B536243C032D00E923B8 /* NPSliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSliderView.h; sourceTree = "<group>"; };
+		0433B537243C032D00E923B8 /* NPSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSliderView.m; sourceTree = "<group>"; };
+		04E39E972437318C00B1CBDA /* JRTTSendVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRTTSendVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E39E9A2437318C00B1CBDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E39E9B2437318C00B1CBDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E39EA02437318C00B1CBDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E39EA12437318C00B1CBDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E39EA42437318C00B1CBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E39EA62437318E00B1CBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E39EA92437318E00B1CBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E39EAB2437318E00B1CBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E39EAC2437318E00B1CBDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E39EB22437318E00B1CBDA /* JRTTSendVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRTTSendVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E39EB62437318E00B1CBDA /* JRTTSendVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTTSendVideoTests.m; sourceTree = "<group>"; };
+		04E39EB82437318E00B1CBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E39EBD2437318E00B1CBDA /* JRTTSendVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRTTSendVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E39EC12437318E00B1CBDA /* JRTTSendVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTTSendVideoUITests.m; sourceTree = "<group>"; };
+		04E39EC32437318E00B1CBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E39ED02437336D00B1CBDA /* NPSendVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSendVideoViewController.h; sourceTree = "<group>"; };
+		04E39ED12437336D00B1CBDA /* NPSendVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSendVideoViewController.m; sourceTree = "<group>"; };
+		04E39ED6243733ED00B1CBDA /* NPSendVideoHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSendVideoHeaderView.h; sourceTree = "<group>"; };
+		04E39ED7243733ED00B1CBDA /* NPSendVideoHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSendVideoHeaderView.m; sourceTree = "<group>"; };
+		04E39ED9243737AF00B1CBDA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		04E39EDA243737B000B1CBDA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		04E39EDE2437380000B1CBDA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		04E39EE02437380800B1CBDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E39EE12437389600B1CBDA /* NPWordSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPWordSet.h; sourceTree = "<group>"; };
+		04E39EE22437389600B1CBDA /* NPWordSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPWordSet.m; sourceTree = "<group>"; };
+		04E39EEE243AAD9600B1CBDA /* NSObject+NPMediaJurisdiction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NPMediaJurisdiction.h"; sourceTree = "<group>"; };
+		04E39EEF243AAD9600B1CBDA /* NSObject+NPMediaJurisdiction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NPMediaJurisdiction.m"; sourceTree = "<group>"; };
+		04E39EF1243AAE3400B1CBDA /* NPMediaFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPMediaFetcher.h; sourceTree = "<group>"; };
+		04E39EF2243AAE3400B1CBDA /* NPMediaFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPMediaFetcher.m; sourceTree = "<group>"; };
+		04E39EF4243AB9C800B1CBDA /* NPSendVideoBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSendVideoBottomView.h; sourceTree = "<group>"; };
+		04E39EF5243AB9C800B1CBDA /* NPSendVideoBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSendVideoBottomView.m; sourceTree = "<group>"; };
+		04E39EF8243ADF3300B1CBDA /* NPBaseVideoPlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPBaseVideoPlay.h; sourceTree = "<group>"; };
+		04E39EF9243ADF3300B1CBDA /* NPBaseVideoPlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPBaseVideoPlay.m; sourceTree = "<group>"; };
+		04E39EFB243B017E00B1CBDA /* NPSendVideoSecondSeptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSendVideoSecondSeptViewController.h; sourceTree = "<group>"; };
+		04E39EFC243B017E00B1CBDA /* NPSendVideoSecondSeptViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSendVideoSecondSeptViewController.m; sourceTree = "<group>"; };
+		04E39EFE243B20E100B1CBDA /* NPSendVideoMiddleExchangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSendVideoMiddleExchangeViewController.h; sourceTree = "<group>"; };
+		04E39EFF243B20E100B1CBDA /* NPSendVideoMiddleExchangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSendVideoMiddleExchangeViewController.m; sourceTree = "<group>"; };
+		04E39F04243B266800B1CBDA /* NPSendVideoSecondHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSendVideoSecondHeaderView.h; sourceTree = "<group>"; };
+		04E39F05243B266800B1CBDA /* NPSendVideoSecondHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSendVideoSecondHeaderView.m; sourceTree = "<group>"; };
+		04E39F08243B318C00B1CBDA /* NPSendVideoThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSendVideoThirdViewController.h; sourceTree = "<group>"; };
+		04E39F09243B318C00B1CBDA /* NPSendVideoThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSendVideoThirdViewController.m; sourceTree = "<group>"; };
+		8B7FD1852AAC38E5211AABF5 /* Pods-JRTTSendVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRTTSendVideo.debug.xcconfig"; path = "Target Support Files/Pods-JRTTSendVideo/Pods-JRTTSendVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		B48AFF1CB9E25E3F482401DC /* libPods-JRTTSendVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JRTTSendVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB41AC8B397CDABDC5BF0154 /* Pods-JRTTSendVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRTTSendVideo.release.xcconfig"; path = "Target Support Files/Pods-JRTTSendVideo/Pods-JRTTSendVideo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E39E942437318C00B1CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1505DAB2EFC0DCB1FB000B05 /* libPods-JRTTSendVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E39EAF2437318E00B1CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E39EBA2437318E00B1CBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E39E8E2437318C00B1CBDA = {
+			isa = PBXGroup;
+			children = (
+				04E39E992437318C00B1CBDA /* JRTTSendVideo */,
+				04E39EB52437318E00B1CBDA /* JRTTSendVideoTests */,
+				04E39EC02437318E00B1CBDA /* JRTTSendVideoUITests */,
+				04E39E982437318C00B1CBDA /* Products */,
+				2346021F1A80E4B534AD952B /* Pods */,
+				D784ADF980FD298FD8CAAD62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E39E982437318C00B1CBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E39E972437318C00B1CBDA /* JRTTSendVideo.app */,
+				04E39EB22437318E00B1CBDA /* JRTTSendVideoTests.xctest */,
+				04E39EBD2437318E00B1CBDA /* JRTTSendVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E39E992437318C00B1CBDA /* JRTTSendVideo */ = {
+			isa = PBXGroup;
+			children = (
+				04E39E9A2437318C00B1CBDA /* AppDelegate.h */,
+				04E39E9B2437318C00B1CBDA /* AppDelegate.m */,
+				04E39EA02437318C00B1CBDA /* ViewController.h */,
+				04E39EA12437318C00B1CBDA /* ViewController.m */,
+				04E39EE12437389600B1CBDA /* NPWordSet.h */,
+				04E39EE22437389600B1CBDA /* NPWordSet.m */,
+				04E39EDF2437380000B1CBDA /* InfoPlist.strings */,
+				04E39ECF2437335900B1CBDA /* SendVideo */,
+				04E39EA32437318C00B1CBDA /* Main.storyboard */,
+				04E39EA62437318E00B1CBDA /* Assets.xcassets */,
+				04E39EA82437318E00B1CBDA /* LaunchScreen.storyboard */,
+				04E39EAB2437318E00B1CBDA /* Info.plist */,
+				04E39EAC2437318E00B1CBDA /* main.m */,
+			);
+			path = JRTTSendVideo;
+			sourceTree = "<group>";
+		};
+		04E39EB52437318E00B1CBDA /* JRTTSendVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E39EB62437318E00B1CBDA /* JRTTSendVideoTests.m */,
+				04E39EB82437318E00B1CBDA /* Info.plist */,
+			);
+			path = JRTTSendVideoTests;
+			sourceTree = "<group>";
+		};
+		04E39EC02437318E00B1CBDA /* JRTTSendVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E39EC12437318E00B1CBDA /* JRTTSendVideoUITests.m */,
+				04E39EC32437318E00B1CBDA /* Info.plist */,
+			);
+			path = JRTTSendVideoUITests;
+			sourceTree = "<group>";
+		};
+		04E39ECF2437335900B1CBDA /* SendVideo */ = {
+			isa = PBXGroup;
+			children = (
+				04E39F07243B317800B1CBDA /* third */,
+				04E39EFE243B20E100B1CBDA /* NPSendVideoMiddleExchangeViewController.h */,
+				04E39EFF243B20E100B1CBDA /* NPSendVideoMiddleExchangeViewController.m */,
+				04E39F01243B262C00B1CBDA /* first */,
+				04E39F02243B263F00B1CBDA /* second */,
+				04E39EE424373CA900B1CBDA /* tools */,
+			);
+			path = SendVideo;
+			sourceTree = "<group>";
+		};
+		04E39ED3243733C400B1CBDA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04E39EF7243ADF2000B1CBDA /* VideoPlay */,
+				04E39ED5243733D100B1CBDA /* bottomview */,
+				04E39ED4243733C900B1CBDA /* headerView */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04E39ED4243733C900B1CBDA /* headerView */ = {
+			isa = PBXGroup;
+			children = (
+				04E39ED6243733ED00B1CBDA /* NPSendVideoHeaderView.h */,
+				04E39ED7243733ED00B1CBDA /* NPSendVideoHeaderView.m */,
+			);
+			path = headerView;
+			sourceTree = "<group>";
+		};
+		04E39ED5243733D100B1CBDA /* bottomview */ = {
+			isa = PBXGroup;
+			children = (
+				04E39EF4243AB9C800B1CBDA /* NPSendVideoBottomView.h */,
+				04E39EF5243AB9C800B1CBDA /* NPSendVideoBottomView.m */,
+			);
+			path = bottomview;
+			sourceTree = "<group>";
+		};
+		04E39EE424373CA900B1CBDA /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				04E39EEE243AAD9600B1CBDA /* NSObject+NPMediaJurisdiction.h */,
+				04E39EEF243AAD9600B1CBDA /* NSObject+NPMediaJurisdiction.m */,
+				04E39EF1243AAE3400B1CBDA /* NPMediaFetcher.h */,
+				04E39EF2243AAE3400B1CBDA /* NPMediaFetcher.m */,
+				0433B536243C032D00E923B8 /* NPSliderView.h */,
+				0433B537243C032D00E923B8 /* NPSliderView.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		04E39EF7243ADF2000B1CBDA /* VideoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				04E39EF8243ADF3300B1CBDA /* NPBaseVideoPlay.h */,
+				04E39EF9243ADF3300B1CBDA /* NPBaseVideoPlay.m */,
+			);
+			path = VideoPlay;
+			sourceTree = "<group>";
+		};
+		04E39F01243B262C00B1CBDA /* first */ = {
+			isa = PBXGroup;
+			children = (
+				04E39ED02437336D00B1CBDA /* NPSendVideoViewController.h */,
+				04E39ED12437336D00B1CBDA /* NPSendVideoViewController.m */,
+				04E39ED3243733C400B1CBDA /* view */,
+			);
+			path = first;
+			sourceTree = "<group>";
+		};
+		04E39F02243B263F00B1CBDA /* second */ = {
+			isa = PBXGroup;
+			children = (
+				04E39EFB243B017E00B1CBDA /* NPSendVideoSecondSeptViewController.h */,
+				04E39EFC243B017E00B1CBDA /* NPSendVideoSecondSeptViewController.m */,
+				04E39F03243B264E00B1CBDA /* view */,
+			);
+			path = second;
+			sourceTree = "<group>";
+		};
+		04E39F03243B264E00B1CBDA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04E39F04243B266800B1CBDA /* NPSendVideoSecondHeaderView.h */,
+				04E39F05243B266800B1CBDA /* NPSendVideoSecondHeaderView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04E39F07243B317800B1CBDA /* third */ = {
+			isa = PBXGroup;
+			children = (
+				04E39F08243B318C00B1CBDA /* NPSendVideoThirdViewController.h */,
+				04E39F09243B318C00B1CBDA /* NPSendVideoThirdViewController.m */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		2346021F1A80E4B534AD952B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B7FD1852AAC38E5211AABF5 /* Pods-JRTTSendVideo.debug.xcconfig */,
+				CB41AC8B397CDABDC5BF0154 /* Pods-JRTTSendVideo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D784ADF980FD298FD8CAAD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B48AFF1CB9E25E3F482401DC /* libPods-JRTTSendVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E39E962437318C00B1CBDA /* JRTTSendVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E39EC62437318E00B1CBDA /* Build configuration list for PBXNativeTarget "JRTTSendVideo" */;
+			buildPhases = (
+				76C9717A7A03011568D815A1 /* [CP] Check Pods Manifest.lock */,
+				04E39E932437318C00B1CBDA /* Sources */,
+				04E39E942437318C00B1CBDA /* Frameworks */,
+				04E39E952437318C00B1CBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRTTSendVideo;
+			productName = JRTTSendVideo;
+			productReference = 04E39E972437318C00B1CBDA /* JRTTSendVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E39EB12437318E00B1CBDA /* JRTTSendVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E39EC92437318E00B1CBDA /* Build configuration list for PBXNativeTarget "JRTTSendVideoTests" */;
+			buildPhases = (
+				04E39EAE2437318E00B1CBDA /* Sources */,
+				04E39EAF2437318E00B1CBDA /* Frameworks */,
+				04E39EB02437318E00B1CBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E39EB42437318E00B1CBDA /* PBXTargetDependency */,
+			);
+			name = JRTTSendVideoTests;
+			productName = JRTTSendVideoTests;
+			productReference = 04E39EB22437318E00B1CBDA /* JRTTSendVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E39EBC2437318E00B1CBDA /* JRTTSendVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E39ECC2437318E00B1CBDA /* Build configuration list for PBXNativeTarget "JRTTSendVideoUITests" */;
+			buildPhases = (
+				04E39EB92437318E00B1CBDA /* Sources */,
+				04E39EBA2437318E00B1CBDA /* Frameworks */,
+				04E39EBB2437318E00B1CBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E39EBF2437318E00B1CBDA /* PBXTargetDependency */,
+			);
+			name = JRTTSendVideoUITests;
+			productName = JRTTSendVideoUITests;
+			productReference = 04E39EBD2437318E00B1CBDA /* JRTTSendVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E39E8F2437318C00B1CBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04E39E962437318C00B1CBDA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					04E39EB12437318E00B1CBDA = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04E39E962437318C00B1CBDA;
+					};
+					04E39EBC2437318E00B1CBDA = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04E39E962437318C00B1CBDA;
+					};
+				};
+			};
+			buildConfigurationList = 04E39E922437318C00B1CBDA /* Build configuration list for PBXProject "JRTTSendVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 04E39E8E2437318C00B1CBDA;
+			productRefGroup = 04E39E982437318C00B1CBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E39E962437318C00B1CBDA /* JRTTSendVideo */,
+				04E39EB12437318E00B1CBDA /* JRTTSendVideoTests */,
+				04E39EBC2437318E00B1CBDA /* JRTTSendVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E39E952437318C00B1CBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E39EAA2437318E00B1CBDA /* LaunchScreen.storyboard in Resources */,
+				04E39EDD2437380000B1CBDA /* InfoPlist.strings in Resources */,
+				04E39EA72437318E00B1CBDA /* Assets.xcassets in Resources */,
+				04E39EA52437318C00B1CBDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E39EB02437318E00B1CBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E39EBB2437318E00B1CBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76C9717A7A03011568D815A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JRTTSendVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E39E932437318C00B1CBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0433B538243C032D00E923B8 /* NPSliderView.m in Sources */,
+				04E39EFD243B017E00B1CBDA /* NPSendVideoSecondSeptViewController.m in Sources */,
+				04E39F06243B266800B1CBDA /* NPSendVideoSecondHeaderView.m in Sources */,
+				04E39EE32437389600B1CBDA /* NPWordSet.m in Sources */,
+				04E39EF3243AAE3400B1CBDA /* NPMediaFetcher.m in Sources */,
+				04E39ED22437336D00B1CBDA /* NPSendVideoViewController.m in Sources */,
+				04E39F00243B20E100B1CBDA /* NPSendVideoMiddleExchangeViewController.m in Sources */,
+				04E39ED8243733ED00B1CBDA /* NPSendVideoHeaderView.m in Sources */,
+				04E39EA22437318C00B1CBDA /* ViewController.m in Sources */,
+				04E39EF6243AB9C800B1CBDA /* NPSendVideoBottomView.m in Sources */,
+				04E39E9C2437318C00B1CBDA /* AppDelegate.m in Sources */,
+				04E39EF0243AAD9600B1CBDA /* NSObject+NPMediaJurisdiction.m in Sources */,
+				04E39EFA243ADF3300B1CBDA /* NPBaseVideoPlay.m in Sources */,
+				04E39F0A243B318C00B1CBDA /* NPSendVideoThirdViewController.m in Sources */,
+				04E39EAD2437318E00B1CBDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E39EAE2437318E00B1CBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E39EB72437318E00B1CBDA /* JRTTSendVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E39EB92437318E00B1CBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E39EC22437318E00B1CBDA /* JRTTSendVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E39EB42437318E00B1CBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E39E962437318C00B1CBDA /* JRTTSendVideo */;
+			targetProxy = 04E39EB32437318E00B1CBDA /* PBXContainerItemProxy */;
+		};
+		04E39EBF2437318E00B1CBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E39E962437318C00B1CBDA /* JRTTSendVideo */;
+			targetProxy = 04E39EBE2437318E00B1CBDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E39EA32437318C00B1CBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E39EA42437318C00B1CBDA /* Base */,
+				04E39ED9243737AF00B1CBDA /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E39EA82437318E00B1CBDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E39EA92437318E00B1CBDA /* Base */,
+				04E39EDA243737B000B1CBDA /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04E39EDF2437380000B1CBDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E39EDE2437380000B1CBDA /* zh-Hans */,
+				04E39EE02437380800B1CBDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E39EC42437318E00B1CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E39EC52437318E00B1CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E39EC72437318E00B1CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7FD1852AAC38E5211AABF5 /* Pods-JRTTSendVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C683YP3BWU;
+				INFOPLIST_FILE = JRTTSendVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JRTTSendVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04E39EC82437318E00B1CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB41AC8B397CDABDC5BF0154 /* Pods-JRTTSendVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C683YP3BWU;
+				INFOPLIST_FILE = JRTTSendVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JRTTSendVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04E39ECA2437318E00B1CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JRTTSendVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JRTTSendVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRTTSendVideo.app/JRTTSendVideo";
+			};
+			name = Debug;
+		};
+		04E39ECB2437318E00B1CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JRTTSendVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JRTTSendVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRTTSendVideo.app/JRTTSendVideo";
+			};
+			name = Release;
+		};
+		04E39ECD2437318E00B1CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JRTTSendVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JRTTSendVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JRTTSendVideo;
+			};
+			name = Debug;
+		};
+		04E39ECE2437318E00B1CBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JRTTSendVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.JRTTSendVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JRTTSendVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E39E922437318C00B1CBDA /* Build configuration list for PBXProject "JRTTSendVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E39EC42437318E00B1CBDA /* Debug */,
+				04E39EC52437318E00B1CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E39EC62437318E00B1CBDA /* Build configuration list for PBXNativeTarget "JRTTSendVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E39EC72437318E00B1CBDA /* Debug */,
+				04E39EC82437318E00B1CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E39EC92437318E00B1CBDA /* Build configuration list for PBXNativeTarget "JRTTSendVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E39ECA2437318E00B1CBDA /* Debug */,
+				04E39ECB2437318E00B1CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E39ECC2437318E00B1CBDA /* Build configuration list for PBXNativeTarget "JRTTSendVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E39ECD2437318E00B1CBDA /* Debug */,
+				04E39ECE2437318E00B1CBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E39E8F2437318C00B1CBDA /* Project object */;
+}
